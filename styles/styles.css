@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+}
+.container {
+  height: 100vh;
+  background-image: url("../images/background-img.png");
+}
+.Nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
+  align-items: center;
+}
+.Nav-container span {
+  color: black;
+}
+.navigation ul {
+  display: inline-block;
+  list-style-type: none;
+
+}
+.navigation ul a {
+  padding-right: 20px;
+}
+.navigation ul a li {
+  display: inline-block;
+  color: black;
+}
+.navigation ul a:hover {
+  border-bottom: 2px solid black;
+}
+.hero-container {@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;500;700&display=swap');
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  align-items: center;
+}
+.hero-image img {
+  width: 100%;
+  height: 1279px;
+}
+.hero-text {
+  margin-left: 200px;
+}
+.hero-text h1 {
+  padding: 50px;
+  font-size: 54px ;
+}
+.hero-text p {
+  padding-left: 70px;
+}
+.buttons {
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.About-text button {
+  margin: 30px;
+  width: 200px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.full {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  width: 128px;
+  height: 54px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.outlined-btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  width: 140px;
+  height: 54px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.outlined-btn:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.About {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.About-text h1 {
+  padding: 20px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.About-text p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
